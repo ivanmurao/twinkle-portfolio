@@ -1,0 +1,47 @@
+header {
+  height: 100vh;
+  padding-top: 9rem;
+  overflow: hidden;
+  
+}
+
+.header__container {
+  text-align: center;
+  height: 100vh;
+  position: relative;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 2.5rem;
+}
+
+.header__socials {
+  display: flex;
+  justify-content: center; 
+  column-gap: 1.75rem;
+  margin: 1.5rem 0;
+}
+
+.scroll__down {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: 8.5rem;
+}
+
+@media screen and (max-width: 1024px){
+  section {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+
+  .scroll__down {
+    display: none;
+  }
+}
